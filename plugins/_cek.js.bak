@@ -1,0 +1,7 @@
+let handler = async ( m ) => {
+  m.reply('ketik .menu untuk melihat perintah!')
+}
+
+handler.commandPrefix = /^(cek|tes|test)$/i
+
+export default handler
